@@ -1,0 +1,177 @@
+Opening/Loading Phase
+
+Starting from a Powered Down and Cold system under Low vacuum
+
+1. Turn on the computer and log into the NTE-3000 profile. Password: DRIVE
+
+2. Run the latest NTE control program and log into the engineering profile. Password: drive
+
+3. Open both of the nitrogen cylinder valves (large one on the top of the cylinder and the small black one on the regulator), and check that the regulator pressure reads 40psi
+
+4. Check the pressure gauges on the back of the machine and make sure they match their labeled pressures. (40psi and 10psi respectively)
+
+5. Now open the chamber by first loosening the knob on the chamber door, then pressing the “open CH vent valves” (this slowly leaks nitrogen into the chamber) button in the vacuum tab of the NTE control program.
+
+6. Once the chamber door opens freely press the “open CH vent valves” button again.
+
+7. Check that the crucible shutter works by opening the “Engineering” tab and sequentially pressing the “Open Source #1” “Open Source #2” and “Open Both” buttons, ensuring that each crucible is covered/uncovered appropriately.
+
+8. Check that the plate shutter works by opening the “Engineering” tab, and pressing the “Open/Close” button in the “Plate Shutter” box. Ensuring that the plate is covered/uncovered appropriately.
+
+9. Check that the QCM works by switching on the power switch of the “TM-350” located on the front of the machine. Press the “Stop” button on the “TM-350” twice and ensure that the error message doesn’t persist.(NOTE: This is Not the “BIG RED BUTTON”)
+
+10. Check that the water level on the chiller is above the minimum and is clean.
+
+11. Check that the oil level on the roughing pump is near the top, and below the line.
+
+12. Insert the plate, and crucible(s) of your choice.
+
+13. Close the shutters.
+
+14. Close and tighten the chamber door
+
+15. Turn on the chiller by pushing the “I/O” button on the front of it, and ensure the chiller is set at 18*C.
+
+16. Open the vent
+
+17. Under the“Engineering” tab push the “Log Data” button. This will record the pressure, plate temperature, crucible temperatures, total thickness (not film thickness), and time.
+
+18. under the” Vacuum” tab push the “Pump Down” button to put the system under vacuum.
+
+19. Wait until the pressure reads 2.5x10^-5 torr before starting the bake-out
+
+Bake-out Phase (All done under the “Engineering” tab)
+
+1. Ensure that both shutters are closed. (if using two crucibles ensure that the more volatile substance is covered)
+
+2. Set the platen temperature to 40*C and push the “Platen Heater Enable” button, once the temperature exceeds 100*C set the temperature to 0*C and push the “Platen Heater Enable” button to turn it off.
+
+3. Ensure that the crucible(s) are set to 7.00% current, then push the “SCR ½ Enable” Button(s)
+
+4. Increase the current by 1% every 2 min until you reach 12%. Then wait 2 min.
+
+5. Ensure that the crucible(s) is (are) over 100*C then step down the current by 3% every 2 min until you reach 7%. Then push the “SCR ½ Enable” Button(s) to turn it (them) off.
+
+6. Allow vacuum to run overnight (12+ hours)
+
+Deposition Phase
+
+1. Turn on the thickness monitor by pushing the “start” button in the thickness monitor box under the engineering tab.
+
+2. If the deposition is to be at temperature (not room temperature) then begin by heating the plate to the desired temperature. To correct for overshoot a temperature about 70+*C lower than the target temperature should be set initially.
+
+3. Once the target temperature has been reached set the plate temperature to 10*lower than the target. The temperature should stabilize at the target temperature.
+
+4. Once the plate temperature is stable, begin heating the crucible(s).
+
+5. Ensure that the crucible(s) you are going to use is(are) uncovered
+
+6. Ensure that the crucible(s) are set to 7.00% current, then push the “SCR ½ Enable” Button(s)
+
+7. Increase the current by 1% every 2 min until you begin to see a rate of deposition.
+
+8. Continue increasing the current by .2%-.5% every 2 min until the desired rate is achieved. (between .5units/s and 2units/s is usually the target)
+
+9. Once the rate is stable start the plate rotating by pressing the “Platen Rotate” button in the platen rotation box.
+
+10. Open the plate shutter by pressing the “Open/Close” button in the plate shutter box under the engineering tab.
+
+11. Begin recording the Time (to second accuracy), Rate (in units/sec), Film Thickness (in units), and plate temperature (in Celsius) for the entire deposition.
+
+12. Once the desired thickness is reached close the plate shutter by pushing the “Open/Close” button again. Then lower the current of the crucible by 3%.
+
+13. If doing multiple layers uncover the other crucible by pushing the “Open Source ½” button and return to step 6 in the Deposition phase.
+
+14. If the deposition is finished set the plate to 0*C (if it’s not already) and continue lowering the crucible(s) by 3% every 2 min until 7% is reached, then push the “SCR ½ Enable” Button(s) to turn it (them) off.
+
+15. Push the “Stop” button in the thickness monitor box.
+
+16. Push the “Log Data” button.
+
+17. Wait until all temperatures are below 50*C then push the “Vent” button in the vacuum tab. Loosen the chamber door knob.
+
+18. Once the pressure gets near room pressure the graph will gray out, then pressing the “open CH vent valves” button in the vacuum tab.
+
+19. Once the chamber door opens freely press the “open CH vent valves” button again.
+
+20. Remove the platen and crucibles.
+
+21. If another deposition is going to take place immediately then return to Step 7 of the Opening/Loading Phase.
+
+Closing Phase
+
+22. Close the chamber door. Push the “Turbo On/Off” button in the Vacuum Tab and set the “CH vent time” to 0 sec
+
+23. Push the “Pump Down” button and wait for the pressure to go below 1 Torr. Then press the “Vent” button. The graph should gray out.
+
+24. Turn off the chiller by pressing the “I/O” button on the front
+
+25. Close the vent.
+
+26. Close both valves on the nitrogen cylinder
+
+27. Push the “STOP” button under the top screen tab, and close the Program.
+
+28. Shut Down the computer.
+
+Maintenance
+
+Pump Oil:
+
+· Oil should be changed every 12 months
+
+· To change oil:
+
+1. Ensure that the chamber is at room pressure
+
+2. Un-plug the pump from the machine
+
+3. Un-clamp hoses from the pump
+
+4. Drain the old oil into a waste container, using the drain plug on the bottom of the pump
+
+5. Close the drain plug and open the two oil reservoir plugs on the top of the pump
+
+6. Pour in the new oil until the level is between the markers on the gauge
+
+7. Close the plugs and re-attach the pump to the NTE-3000
+
+Nitrogen Cylinder:
+
+· Replace when cylinder reaches 200PSI
+
+· Follow high pressure gas rules to return the empty tank a get a new one
+
+Chiller:
+
+· Replace Chiller water every 12 months
+
+· To replace water:
+
+1. Un-screw the chiller hoses from the back of the NTE-3000
+
+2. Using the drain valve on the bottom-back of the chiller drain the old water into a Large container
+
+3. Once completely drained, close the valve and pour about 1 liter of DI water into the reservoir on the top of the machine to flush out any particulates.
+
+4. Drain that water, and then begin refilling the chiller with DI water until its clearly above the minimum level
+
+5. Reconnect the chiller to the NTE-3000
+
+Quartz Crystal Microbalance:
+
+· Replaced as needed
+
+· To Replace:
+
+1. Ensure QCM is off
+
+2. Unscrew QCM cap, and remove from machine
+
+3. Pop-out old crystal, and put in new one
+
+4. Screw cap back in, and ensure QCM is functioning.
+
+Sieve Heater:
+
+· Run the Sieve Heater once every 6 months
